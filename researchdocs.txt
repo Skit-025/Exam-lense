@@ -1,0 +1,60 @@
+📖 Reading List — Sirf Itna Padh (30-45 min max)
+1. TrOCR — ye hi tera OCR engine hai
+👉 https://huggingface.co/microsoft/trocr-base-handwritten
+Sirf ye sections padh:
+
+"How to use" wala code block
+Samjho processor aur model alag alag kya karte hain
+
+
+2. Pillow (PIL) — image open karne ke liye
+👉 https://pillow.readthedocs.io/en/stable/handbook/tutorial.html
+Sirf ye padh:
+
+"Using the Image class" — pehle 10 lines enough hain
+Bas itna samjho ki Image.open() kya karta hai
+
+
+3. HuggingFace Pipeline concept — 5 min
+👉 https://huggingface.co/docs/transformers/main_classes/pipelines
+Sirf ye samjho:
+
+processor ka kaam kya hai
+model.generate() kya karta hai
+
+
+
+
+
+
+#Next module docs...
+
+
+
+📖 Reading List for preprocessor.py
+1. OpenCV Basic Image Operations — sabse important
+👉 https://docs.opencv.org/4.x/d3/df2/tutorial_py_basic_ops.html
+Sirf ye samjho:
+
+Image grayscale mein kaise convert hoti hai
+cv2.imread() kya karta hai
+
+2. OpenCV Image Thresholding — line detection ke liye zaroori
+👉 https://docs.opencv.org/4.x/d7/d4d/tutorial_py_thresholding.html
+Sirf ye samjho:
+
+cv2.threshold() kya karta hai
+cv2.adaptiveThreshold() kya karta hai aur normal se better kyun hai handwriting ke liye
+
+3. OpenCV Contour Detection — lines dhundne ke liye
+👉 https://docs.opencv.org/4.x/d4/d73/tutorial_py_contours_begin.html
+Sirf ye samjho:
+
+Contour kya hota hai
+cv2.findContours() kya return karta hai
+
+Teen cheezein specifically dhundhna he har page pe:
+
+Kya karta hai ye function?
+Input kya leta hai?
+Output kya deta hai?
