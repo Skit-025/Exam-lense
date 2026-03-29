@@ -58,3 +58,27 @@ Teen cheezein specifically dhundhna he har page pe:
 Kya karta hai ye function?
 Input kya leta hai?
 Output kya deta hai?
+
+
+
+~~for croplines.py~~
+
+
+👉 https://docs.opencv.org/4.x/d3/d05/tutorial_py_basic_ops.html
+Sirf ye samjho:
+
+cv2.boundingRect(contour) — contour ka x, y, width, height kaise nikaalte hain
+image[y:y+h, x:x+w] — numpy slicing se image crop kaise karte hain
+
+Aur ye bhi:
+👉 https://docs.opencv.org/4.x/d4/d73/tutorial_py_contours_begin.html
+Sirf ye samjho:
+
+cv2.findContours() — parameters kya lagte hain
+cv2.RETR_EXTERNAL — sirf outer contours
+cv2.CHAIN_APPROX_SIMPLE — compressed contour points
+
+findContours() ko kya input chahiye?
+boundingRect() kya return karta hai?
+Image crop kaise hoti hai numpy se?
+RETR_EXTERNAL vs RETR_TREE — kya fark hai?
