@@ -22,5 +22,5 @@ if __name__=='__main__':
     output_folder=r'C:\Users\codes\Desktop\Exam lense\examlense\uploads\Dataset'
     os.makedirs(output_folder, exist_ok=True)
     for i in range(1,150):
-        pdf_path=rf"C:\Users\codes\Desktop\Exam lense\examlense\uploads\Dataset\scan{i}.pdf"
+        pdf_path=rf"C:\Users\codes\Desktop\Exam lense\examlense\uploads\Dataset_pdf\scan{i}.pdf"
         pdf_to_img(pdf_path,output_folder,pdf_number = i)
