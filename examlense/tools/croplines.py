@@ -33,62 +33,91 @@ def preprocess_img(img_path):
 
 
 def detect_and_crop_lines(img_path, output_folder, page_number):
+    import cv2 as cv
+    import numpy as np
+    import os
+
     try:
-        binary = preprocess_img(img_path)  # calling the preprocess function to get the binary image
-        if binary is None:
-            return
+        img = cv.imread(img_path)
+        if img is None:
+            raise ValueError(f"Image load failed: {img_path}")
 
-        original = cv.imread(img_path)
-        if original is None:
-            raise ValueError(f"Original image load failed: {img_path}")
+        gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 
-        inverted = cv.bitwise_not(binary)  # using bitwise not to invert blackt->white and white->black
+        # --- Step 1: Strong binarization ---
+        blur = cv.GaussianBlur(gray, (5, 5), 0)
+        _, binary = cv.threshold(blur, 0, 255, cv.THRESH_BINARY + cv.THRESH_OTSU)
 
-        # find sum of pixels in each row
-        row_sum = np.sum(inverted, axis=1)
-        # print(f"Max sum: {row_sum.max()}")
-        # print(f"Min sum: {row_sum.min()}")
-        # print(f"Mean sum: {row_sum.mean()}")
+        inverted = cv.bitwise_not(binary)
 
-        # find the indices of rows where the sum is greater than a threshold (indicating presence of text)
-        threshold = int(row_sum.mean() * 0.5)
+        # --- Step 2: Remove notebook horizontal lines ---
+        kernel = cv.getStructuringElement(cv.MORPH_RECT, (40, 1))
+        removed_lines = cv.morphologyEx(inverted, cv.MORPH_OPEN, kernel)
+
+        clean = cv.subtract(inverted, removed_lines)
+
+        # --- Step 3: Row projection ---
+        row_sum = np.sum(clean, axis=1)
+
+        # Smooth the signal
+        row_sum = cv.GaussianBlur(row_sum.reshape(-1, 1), (7, 1), 0).flatten()
+
+        # Dynamic threshold
+        threshold = np.percentile(row_sum, 65)
 
         line_indices = np.where(row_sum > threshold)[0]
 
-        # group consecutive line indices together to form line segments
+        # --- Step 4: Group lines ---
         lines = []
         if len(line_indices) > 0:
+            gap = int(img.shape[0] * 0.012)  # adaptive gap
             start = line_indices[0]
+
             for i in range(1, len(line_indices)):
-                # if gap between current and previous > 5 pixels
-                if line_indices[i] - line_indices[i - 1] > 5:
-                    lines.append((start, line_indices[i - 1]))  # group end
-                    start = line_indices[i]  # naya group start
-            lines.append((start, line_indices[-1]))  # last group
+                if line_indices[i] - line_indices[i - 1] > gap:
+                    lines.append((start, line_indices[i - 1]))
+                    start = line_indices[i]
 
-        # crop and save each line segment
-        line = 1
-        for (start_y, end_y) in lines:
-            # add some padding to the line segment
-            padding = 10
-            start_y_padded = max(0, start_y - padding)
-            end_y_padded = min(original.shape[0], end_y + padding)
+            lines.append((start, line_indices[-1]))
 
-            # crop from original image
-            cropped = original[start_y_padded:end_y_padded, :]  # start_y to end_y, all columns (x-axis)
+        # --- Step 5: Smart filtering (VERY IMPORTANT) ---
+        final_lines = []
+        heights = [end - start for (start, end) in lines]
 
-            # filter not very small lines (height > 10 pixels)
-            if cropped.shape[0] > 10:  # height > 10 pixels
-                save_path = os.path.join(output_folder, f'line_{page_number}_{line}.jpeg')
+        if len(heights) > 0:
+            avg_height = np.mean(heights)
 
-                success = cv.imwrite(save_path, cropped)
-                if not success:
-                    print(f"[ERROR] Failed to write image: {save_path}")
+            for (start, end) in lines:
+                h = end - start
 
-                line += 1
+                # Reject too small (noise)
+                if h < avg_height * 0.5:
+                    continue
+
+                # Reject too big (merged lines)
+                if h > avg_height * 1.8:
+                    continue
+
+                final_lines.append((start, end))
+
+        # --- Step 6: Crop safely ---
+        line_no = 1
+        for (start_y, end_y) in final_lines:
+            padding = int((end_y - start_y) * 0.3)
+
+            start_y = max(0, start_y - padding)
+            end_y = min(img.shape[0], end_y + padding)
+
+            cropped = img[start_y:end_y, :]
+
+            # FINAL CHECK → avoid empty crops
+            if cropped.shape[0] > 15:
+                save_path = os.path.join(output_folder, f'line_{page_number}_{line_no}.jpeg')
+                cv.imwrite(save_path, cropped)
+                line_no += 1
 
     except Exception as e:
-        print(f"[ERROR] detect_and_crop_lines failed for {img_path}: {e}")
+        print(f"[ERROR] {e}")
 
 
 if __name__ == '__main__':
@@ -124,9 +153,9 @@ if __name__ == '__main__':
 # if __name__ == '__main__':
 #     # test for a single image
 #     test_image = r'C:\Users\codes\Desktop\Exam lense\examlense\uploads\Dataset\scan1_page1.jpeg'
-#     output_folder = r'C:\Users\codes\Desktop\Exam lense\examlense\uploads\CroppedLines\test'
+#     output_folder = r'C:\Users\codes\Desktop\Exam lense\examlense\uploads\CroppedLines\test2'
     
 #     os.makedirs(output_folder, exist_ok=True)
     
-#     detect_and_crop_lines(test_image, output_folder, 'test')
+#     detect_and_crop_lines_best(test_image, output_folder, 'test')
 #     print('Done! Check CroppedLines/test folder!')
