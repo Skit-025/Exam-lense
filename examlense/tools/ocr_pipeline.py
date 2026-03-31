@@ -7,8 +7,8 @@ from PIL import Image
 # =========================
 # LOAD MODEL (only once)
 # =========================
-processor = TrOCRProcessor.from_pretrained("microsoft/trocr-base-handwritten")
-model = VisionEncoderDecoderModel.from_pretrained("microsoft/trocr-base-handwritten")
+processor = TrOCRProcessor.from_pretrained("microsoft/trocr-large-handwritten")
+model = VisionEncoderDecoderModel.from_pretrained("microsoft/trocr-large-handwritten")
 
 
 # =========================
@@ -159,9 +159,13 @@ def run_ocr(image_path):
 # RUN
 # =========================
 if __name__ == "__main__":
-    image_path = r"C:\Users\codes\Desktop\Exam lense\examlense\uploads\Dataset\scan1_page1.jpeg"
+    for i in range(1,26):
+        if i==3 or i==5 or i==7:
+            continue
+        image_path = rf"C:\Users\codes\Desktop\Exam lense\examlense\uploads\CroppedLines\line_scan1_page1_{i}.jpeg"
+        # print(os.path.exists(image_path))
 
-    text = run_ocr(image_path)
+        text = run_ocr(image_path)
 
-    print("\n===== OCR OUTPUT =====\n")
-    print(text)
+        print("\n===== OCR OUTPUT =====\n")
+        print(text)
