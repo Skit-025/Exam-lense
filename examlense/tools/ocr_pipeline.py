@@ -169,3 +169,4 @@ if __name__ == "__main__":
 
         print("\n===== OCR OUTPUT =====\n")
         print(text)
+        # counter=16
