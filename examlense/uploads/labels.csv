@@ -1,88 +1,88 @@
 Filename,Extracted_text
-image1.jpeg,Lases of complexity
-image2.jpeg,count of death dissolution of an algorithm for implementation .
-image3.jpeg,# Computational firm of an algorithms will never exceed .
-image4.jpeg,worst care time : #
-image5.jpeg,# It Constitutional time for an algorithm will be never be
-image6.jpeg,HelpLearn to see Time .
-image7.jpeg,Among case : It is further best ever most 80-three .
+image1.jpeg,cases of complexity
+image2.jpeg,count of each instruction  of an algorithm will never exceed .
+image3.jpeg,* Computational time of an algorithms will never exceed .
+image4.jpeg,worst case time : #
+image5.jpeg,*Computational time for an algorithm will be never be
+image6.jpeg,less than best case time .
+image7.jpeg,Avrage case : It is neither best noe worst It takes .
 image8.jpeg,because a ribbon timber frequency found of each
-image9.jpeg,S Different Computors . Have different 3 speeds :
-image10.jpeg,"The film ) # It gives the running time of the algorithms ,"
-image11.jpeg,1 depends not only the size in of the input data but to mean
+image9.jpeg,avrage execution time for frequency count of each
+image10.jpeg,"The f(n) -> It gives the running time of the algorithms ,
+image11.jpeg,depends not only the size n of the input data buttonson
 image12.jpeg,The particular data .
-image13.jpeg,the complexity function ( ( n ) for certain case #
-image14.jpeg,"Best Case : "" The minimum or least possible time organised"
+image13.jpeg,The complexity function f ( n ) for certain case r
+image14.jpeg,Best Case : The minimum or least possible time required
 image15.jpeg,for frequency out of each evolution of an algorithm .
-image16.jpeg,Southampton .
-image17.jpeg,Worst Case ! The maximum time required for Frequency
-image18.jpeg,exard time is not imposedant . we care about the
-image19.jpeg,There are five assumption .
-image20.jpeg,brief of (O ) . Of is generally used to represent the
-image21.jpeg,BROME GA (SU )
-image22.jpeg,Now then algorithm
-image23.jpeg,Bio-0-nation the
-image24.jpeg,Briga's highest power of his own
-image25.jpeg,Construction and offer maximum upper bond .
-image26.jpeg,I grow with the death not exact value .
-image27.jpeg,Aesthetic notation imposes constants and lower-order .
-image28.jpeg,Liversi and features on the dominant town .
-image29.jpeg,Dommant # It is part of complexity function that
-image30.jpeg,I grows the fastest d'Mright size in becomes theory large
-image31.jpeg,# It is easy to describe the characterists of a function in the
-image32.jpeg,# Not's describe the rank of growth of function .
-image33.jpeg,- It is a way to compressed future .
-image34.jpeg,when the value of film ) is fixed or consistent them .
-image35.jpeg,of space complexity :
-image36.jpeg,When Optimizing algorithm when a pregnancy
-image37.jpeg,a make a tradeoff to turn to a simple
-image38.jpeg,Optimisation . U.
-image39.jpeg,# So came on reduce its time complexity .
-image40.jpeg,If may be more sufficient : Our require more money .
-image41.jpeg,"STRUCT OF THEALTH ,"
-image42.jpeg,programmen -op time an algorithm .
-image43.jpeg,I produce the Space Computerity .
-image44.jpeg,This can be done by in-agree 1ampuf .
+image16.jpeg,for imnlementation .
+image17.jpeg,Worst Case: The maximum time required for frequency
+image18.jpeg,Exact time is not important . we care about the
+image19.jpeg,There are five asymptotic notation .
+image20.jpeg,Big-OH(O)-> It is generally used to represent the
+image21.jpeg,Big-OMEGA(Ω)-
+image22.jpeg,growth of an algorithm
+image23.jpeg,Big-O-notation
+image24.jpeg,Big_o = highest power of n.
+image25.jpeg,Condition and define maximum upper bond .
+image26.jpeg,growth rate the not exact value .
+image27.jpeg,Asymoptic notation ingooes constants and lower-order .
+image28.jpeg,teoms and features as the dominant tom .
+image29.jpeg,Dominant -> It is part of complexity function that
+image30.jpeg,grows the fastest as input size n becomes theory large
+image31.jpeg,# It is way to describe the characterists of a function in the
+image32.jpeg,# ->It is describe the rate of growth of function .
+image33.jpeg,- It is a way to compare size of functions .
+image34.jpeg,when the value of f(n) is fixed or conslet llen .
+image35.jpeg,__ space complexity :
+image36.jpeg,When Optimizing algorithm when a programer
+image37.jpeg,a make a trade of between time and space
+image38.jpeg,Optimisation .
+image39.jpeg,the programmer can reduce its time complexity .
+image40.jpeg,It may be more efficient or require more memory .
+image41.jpeg,space otimization
+image42.jpeg,programmer can -optimize an algorithm .
+image43.jpeg,to reduce it's Space Complexity .
+image44.jpeg,This can be done by using comput .
 image45.jpeg,"its , time , complexity is represented as a ring . '"
-image46.jpeg,"duty genuine organisms , especially"
-image47.jpeg,homerick at my answer the cast and . He due due
-image48.jpeg,to address companies establish statements .
-image49.jpeg,There are the financial concepts of algorithm .
-image50.jpeg,orory's and design :
-image51.jpeg,They suffer to the idea that the programme
+image46.jpeg,"data structure almimizing - asusually"
+image47.jpeg,however it may inerer the cost and time due
+image48.jpeg,to additional conplalor or stack data acert .
+image49.jpeg,There are the fundamental concepts of algorithm .
+image50.jpeg,analysis and design :
+image51.jpeg,They reffer to the idea that the programme
 image52.jpeg,can often optimues an algorithm to
-image53.jpeg,improve it performance through this complexity
+image53.jpeg,improve it performance through time complexity
 image54.jpeg,It is a classical optimization problem .
-image55.jpeg,"had on be the no of objects , each objects is many"
-image56.jpeg,sought thought to deal Constitution to profit .
-image57.jpeg,Let me be the Knapsuck Capiety .
-image58.jpeg,The objective is to feel the knapsacle in such
-image59.jpeg,in away that the project should be proclaimed
+image55.jpeg,Let n be the no. of objects each objects is they,
+image56.jpeg,a weight weight and contribution to pojet .
+image57.jpeg,Let m be the Knapsack Capacity .
+image58.jpeg,The objective is to feel the knapsack in such
+image59.jpeg,a away that the profit should be minimized
 image60.jpeg,It is also allowed . That a fraction of
-image61.jpeg,item to be added to the knapsacret . I
+image61.jpeg,item to be added to the knapsack . I
 image62.jpeg,At each step we include the object which
-image63.jpeg,Mahmally it is written as mycommunity 1xl .
-image64.jpeg,It is the problem of finding the most malvejable combination
-image65.jpeg,of its items to include to a transade ( contains )
-image66.jpeg,""" For its a limited Western capacity ."
-image67.jpeg,"German a set of 400 , each with a weight and profit"
-image68.jpeg,""" profit who developments the combination of items """
-image69.jpeg,to include in the Krapsack so capacity of the
-image70.jpeg,knapack and the told name of the Whapsdale
-image71.jpeg,and the scale of the view should be maintained .
-image72.jpeg,Introduction to further
+image63.jpeg,Matimacally it is written as maximum .
+image64.jpeg,It is the problem of finding the most ualvejable combination
+image65.jpeg,of  items to include in a knapsack ( container )
+image66.jpeg,with a limited Weight capacity ."
+image67.jpeg,"Gimin a setditcn, each with a weight and profit"
+image68.jpeg,profit value determines the combination of items """
+image69.jpeg,to include in the Knapsack so capacity as the
+image70.jpeg,knapack and the total value of the Knapsacale
+image71.jpeg,and the scale of the item should be maximized .
+image72.jpeg,Introduction to python
 image73.jpeg,Simple and easy to learn
-image74.jpeg,Platform Indepeds in
+image74.jpeg,Platform Indepedent
 image75.jpeg,Free and open source .
 image76.jpeg,Rich Library support
-image77.jpeg,Postable M.
-image78.jpeg,I Embbedable and Extensible
-image79.jpeg,the other own
+image77.jpeg,Portable
+image78.jpeg,Embbedable and Extensible
+image79.jpeg,use of python
 image80.jpeg,Web framework and application .
-image81.jpeg,CADI based desktop application
-image82.jpeg,Inaugural design :
-image83.jpeg,( Image Processing application #
-image84.jpeg,IATA Newnd Network
+image81.jpeg,gui based desktop application
+image82.jpeg,graphicalal design :
+image83.jpeg,Image Processing application
+image84.jpeg,Ai/ Neural Network
 image85.jpeg,I IOT and Dark Science
 image86.jpeg,I Name Applications .
 image87.jpeg,( It was appointed to examining language which was developed .
