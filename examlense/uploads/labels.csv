@@ -53,7 +53,7 @@ image51.jpeg,They reffer to the idea that the programme
 image52.jpeg,can often optimues an algorithm to
 image53.jpeg,improve it performance through time complexity
 image54.jpeg,It is a classical optimization problem .
-image55.jpeg,Let n be the no. of objects each objects is they,
+image55.jpeg,"Let n be the no. of objects each objects is they,"
 image56.jpeg,a weight weight and contribution to pojet .
 image57.jpeg,Let m be the Knapsack Capacity .
 image58.jpeg,The objective is to feel the knapsack in such
@@ -64,9 +64,9 @@ image62.jpeg,At each step we include the object which
 image63.jpeg,Matimacally it is written as maximum .
 image64.jpeg,It is the problem of finding the most ualvejable combination
 image65.jpeg,of  items to include in a knapsack ( container )
-image66.jpeg,with a limited Weight capacity ."
+image66.jpeg,with a limited Weight capacity .
 image67.jpeg,"Gimin a setditcn, each with a weight and profit"
-image68.jpeg,profit value determines the combination of items """
+image68.jpeg,profit value determines the combination of items
 image69.jpeg,to include in the Knapsack so capacity as the
 image70.jpeg,knapack and the total value of the Knapsacale
 image71.jpeg,and the scale of the item should be maximized .
@@ -109,7 +109,7 @@ image107.jpeg,"C is pop , python is OOP"
 image108.jpeg,"C a low leve lasy, Python is high-level"
 image109.jpeg,"C has a strict data type order,python cloes not"
 image110.jpeg,Developed by Dennis Rickhe Devoloped by Rassun
-image111.jpeg,in Bell Lab in 1972 .CWI in 1991 ."
+image111.jpeg,in Bell Lab in 1972 .CWI in 1991 .
 image112.jpeg,The data type which cannot be changed after
 image113.jpeg,"These values are defined as python int , python float"
 image114.jpeg,End Python complex classes in python programming
@@ -166,7 +166,7 @@ image164.jpeg,is separted by comma
 image165.jpeg,If created by the built in function .
 image166.jpeg,dictcl just  placing in # curly bracs
 image167.jpeg,the Python inter pretar can execute
-image168.jpeg,Here the most is written in soure code"
+image168.jpeg,Here the most is written in soure code
 image169.jpeg,and exuted by the Python interpreter .
 image170.jpeg,The set of low level instruction as Operantes and opcode
 image171.jpeg,4. Direct Mode
@@ -235,7 +235,7 @@ image233.jpeg,The Same code
 image234.jpeg,It is the simply the nodes of the programmer which .
 image235.jpeg,"provides clarity of the code, and which are"
 image236.jpeg,programmer work code in two ways
-image237.jpeg,"...." at the beagginneg and the end at the python
+image237.jpeg,"""_ _ _"" at the beginning and the end of the python"
 image238.jpeg,exactly how many time are want to
 image239.jpeg, the loops to break the loop excution based
 image240.jpeg,on some condition continue statement are
@@ -258,11 +258,11 @@ image256.jpeg,List # and cloning
 image257.jpeg,Copy of list can be done in 2 ways that is aliasing
 image258.jpeg,"X=[10,20,40,40]"
 image259.jpeg,y = x (here list is not copied rather at has
-image260.jpeg,another name "y") this is aliasing.
+image260.jpeg,"another name ""y"") this is aliasing."
 image261.jpeg,Transmrsing of list can be done show many ways are
 image262.jpeg,the examples of each-
 image263.jpeg,Write a string message in string the message format .
-image264.jpeg,="Nobody is perfect in the world".
+image264.jpeg,"=""Nobody is perfect in the world"""
 image265.jpeg,do the following operation .
 image266.jpeg,"print message[-15:-14:-1]"
 image267.jpeg,Print Acssaql []
@@ -272,9 +272,9 @@ image270.jpeg,our growth or influence our development .
 image271.jpeg,According to environmental Protection act 1986
 image272.jpeg,The environment defined as the sum total
 image273.jpeg,"ements, factors and conditions in the"
-image274.jpeg,Surrounding which may affect the development ."
+image274.jpeg,Surrounding which may affect the development
 image275.jpeg,action We of an organism or group of
-image276.jpeg,organism such as  we human-beings # are include ."
+image276.jpeg,organism such as  we human-beings # are include .
 image277.jpeg,Types of Environment :
 image278.jpeg,Natural Environment
 image279.jpeg,Artificial Environment
@@ -286,7 +286,7 @@ image284.jpeg,Study of living organism and non-living .
 image285.jpeg,interact and affect each other
 image286.jpeg,Environment:
 image287.jpeg,The word Environment comes from an French
-image288.jpeg, Word called " Envirol " that means surrounding
+image288.jpeg, "Word called ""Envirol"" that means surrounding"
 image289.jpeg,Environment include living organisms and non
 image290.jpeg,living organism that Surrounds us and affect .
 image291.jpeg,abiotic component : An the non
@@ -332,7 +332,7 @@ image330.jpeg,animals microscanism . ( living organism )
 image331.jpeg,are biotic component .
 image332.jpeg,Environment has four segments .
 image333.jpeg,Troposphere :
-image334.jpeg,"maintain heat energy  It contains
+image334.jpeg,maintain heat energy  It contains
 image335.jpeg,"life saving elements N2,02,Co2"
 image336.jpeg,and H2o Particles
 image337.jpeg,Top of the toposphere layers is
@@ -394,7 +394,7 @@ image392.jpeg,600Km to upto space .
 image393.jpeg,Ultimately temperature increases due to
 image394.jpeg,nearestt to sun
 image395.jpeg,The highest temperature of atmosphere .
-image396.jpeg,that in 2000oC is found here due"
+image396.jpeg,that in 2000oC is found here due
 image397.jpeg,to X-Ray and UV-Ray
 image398.jpeg,Hydrosphere
 image399.jpeg,It Contain B of Earth Surface for
@@ -445,7 +445,7 @@ image443.jpeg,#####        # ecology subdivided into
 image444.jpeg,Hutoecology  (b) Synecology
 image445.jpeg,Autoecology is related to Study about
 image446.jpeg,by AG Tensely . it is defined as
-image447.jpeg,a Space where all the  livings organisms"
+image447.jpeg,a Space where all the  livings organisms
 image448.jpeg,are present with their abiotic factors .
 image449.jpeg,It includes all the chemical Cycles .
 image450.jpeg,and energy flow
@@ -584,7 +584,7 @@ image582.jpeg,Scientific notation where we use
 image583.jpeg,e or E to represent the power
 image584.jpeg,2.5 x10^4  Can be written as 2.5 e4 or 2.5E4
 image585.jpeg,num = 25.5166
-image586.jpeg,here 'num' and ' b ' are float variables ."
+image586.jpeg,here 'num' and ' b ' are float variables .
 image587.jpeg,eg->0o153 or 0o153
 image588.jpeg,Converting datatypes Explicitily
 image589.jpeg,but Sometimes programmer wants to lconuest
@@ -806,12 +806,12 @@ image804.jpeg,(3) meta title
 image805.jpeg,(4) Meta view Port
 image806.jpeg,# best is 25 char .. is considered
 image807.jpeg,<title>my page</title>
-image808.jpeg,|mywebpage - -|-> this is called elipse"
+image808.jpeg,|mywebpage - -|-> this is called elipse
 image809.jpeg,"2> <1ink> , It is a unpaired tag"
 image810.jpeg,=>It has self crossing tag  <link>
-image811.jpeg,"eg:- <link href =" Path of new ".
-image812.jpeg,res="the rel^n to html doc."
-image813.jpeg,type=type of source>"
+image811.jpeg,"eg:- <link href =""Path of new""."
+image812.jpeg,"res=""the rel^n to html doc."""
+image813.jpeg,type=type of source>
 image814.jpeg,->10 specify the URL of the server page
 image815.jpeg,It similar with case sensitive but similar
 image816.jpeg,Feacture:-
@@ -864,11 +864,11 @@ image862.jpeg,syntax:flex
 image863.jpeg,2- Flex Item:-
 image864.jpeg,That is the child element to display inside .
 image865.jpeg,the container
-image866.jpeg,Here the instruction format uses Only One address format"
+image866.jpeg,Here the instruction format uses Only One address format
 image867.jpeg,They can be reduced from 3 to 2 address format if
 image868.jpeg,the destination register is same as the surface registor .
 image869.jpeg,STACK Organization:
-image870.jpeg,The Operants are put into the stack and the operation is"
+image870.jpeg,The Operants are put into the stack and the operation is
 image871.jpeg,Carried out in top of the STACK ( TOS )
 image872.jpeg,PUSH and pop are used to communicate with in the STACK .
 image873.jpeg,which requires an address field .
@@ -975,7 +975,7 @@ image973.jpeg,After the time required to access the memory the address
 image974.jpeg,is red out of the  memory and loaded into MDR.
 image975.jpeg,Now the Contaient of MDR are transfor to IR and the
 image976.jpeg,instruction is ready to be exicuted .
-image977.jpeg,The first operant is petched by sending its address to"
+image977.jpeg,The first operant is petched by sending its address to
 image978.jpeg,MAR and simultaneously initiate or  READ Signal.
 image979.jpeg,After One or two more cycle the ALU Can perform the
 image980.jpeg,It hold the o/p in a variable structure for the
@@ -990,7 +990,7 @@ image988.jpeg,Control Circuit which generates the timing signal.
 image989.jpeg,Operational steps :-
 image990.jpeg,There are 1o operational step involved to exicute a
 image991.jpeg,"program or instruction "
-image992.jpeg,"The program stage in the memory and usually get the input
+image992.jpeg,The program stage in the memory and usually get the input
 image993.jpeg,through  I /O devices .
 image994.jpeg,Exication of the program starts when the program Counter
 image995.jpeg,With the help of generating Control signal the hardwired
@@ -1008,7 +1008,7 @@ image1006.jpeg,of addressing mode the instruction decoder sends the
 image1007.jpeg,instruction signal ( INS 1 - INS n )
 image1008.jpeg,In single bus Organization Only One data item or instr.
 image1009.jpeg,Can be processed at exicution cycle or clock cycle .
-image1010.jpeg,To reduce the no. of steps must processor provided"
+image1010.jpeg,To reduce the no. of steps must processor provided
 image1011.jpeg,multi bus Organization to enable several transforce that
 image1012.jpeg,Can take place in parallal manner .
 image1013.jpeg,An multi bus structure are used to connect the registors
@@ -1020,7 +1020,7 @@ image1018.jpeg,the control unit after that the step Counter is
 image1019.jpeg,implemented which is used to containt the signal
 image1020.jpeg,from ( T1-T5 ) The o/p of step Counten will take in T1-T5)
 image1021.jpeg,Control unit is able to execute the instruction at Current
-image1022.jpeg,"type and a proper siquence 
+image1022.jpeg,type and a proper siquence
 image1023.jpeg,As Compared with MPCU the HWCU is generally baster .
 image1024.jpeg,The generated upcode bits are received in the field
 image1025.jpeg,of an instruction decorder with interpretes the insists .
@@ -1034,7 +1034,7 @@ image1032.jpeg,will set t4 to t1 are the first  task has t3 ## the
 image1033.jpeg,task number
 image1034.jpeg,The external i/p is used to tell the Control Signal
 image1035.jpeg,generator about the intereptes which will affect the
-image1036.jpeg,"exicution of an instruction.
+image1036.jpeg,exicution of an instruction.
 image1037.jpeg,Micro programmed control unit :-
 image1038.jpeg,A micro programmed Control unit can be described as a
 image1039.jpeg,simple logic . Circuit which can be used in two ways .
@@ -1046,7 +1046,7 @@ image1044.jpeg,the time of evaluation CISC architecture .
 image1045.jpeg,The program which is used to creat the Control signal
 image1046.jpeg,Control word and Corresponds to the standing address
 image1047.jpeg,of microprogram.
-image1048.jpeg,In this step  the micro instruction Contains of bit which is"
+image1048.jpeg,In this step  the micro instruction Contains of bit which is
 image1049.jpeg,"known as end - bit . So , in this Control unit the micro-"
 image1050.jpeg,program are stored with the help of Control memory or
 image1051.jpeg,ore known as microprogram . It is placed on the processor
@@ -1163,8 +1163,8 @@ image1161.jpeg,"function , modules etc."
 image1162.jpeg,-> dynamic typed language
 image1163.jpeg,->Enterpreted language
 image1164.jpeg,->Very rich in library
-image1165.jpeg,->most Suitable for AI & data scene"
-image1166.jpeg,Python character set 
+image1165.jpeg,->most Suitable for AI & data scene
+image1166.jpeg,Python character set
 image1167.jpeg,It contains all characters of ASCII
 image1168.jpeg,& unique characters .
 image1169.jpeg,'a' '7' -> 97-122  |Sublet of|
@@ -1173,7 +1173,7 @@ image1171.jpeg,"in a part of single , double or triple "
 image1172.jpeg,"Ex:- 'abc','abc'"
 image1173.jpeg,Welcome to
 image1174.jpeg,AIML DEPT
-image1175.jpeg,->No Special character ( except "____")
+image1175.jpeg,"->No Special character ( except ""____"")"
 image1176.jpeg,-> case sensitive
 image1177.jpeg,iii>Literal or constant -
 image1178.jpeg,-> Integer literal -Ceticle num-
@@ -1212,8 +1212,8 @@ image1210.jpeg,Complex datatype :-
 image1211.jpeg,It represents complex number of the
 image1212.jpeg,a real part <are represented
 image1213.jpeg,b= imaginary part ) as float
-image1214.jpeg,"print("Real Part = "C.real)"
-image1215.jpeg,"print("Imagineary part =",C.img)"
+image1214.jpeg,"print(""Real Part = ""C.real)"
+image1215.jpeg,"print(""Imagineary part ="",C.img)"
 image1216.jpeg,Print (type(c))
 image1217.jpeg,-> All characters are indexed .
 image1218.jpeg,-> All elements are indexed based .
@@ -1249,7 +1249,7 @@ image1247.jpeg,-> elements can not be indexed on their .
 image1248.jpeg,"{2,5,7} is Same as {7,2,5}"
 image1249.jpeg,->A set is represented by class set
 image1250.jpeg,"s1={3,3,2,6,7,12}"
-image1251.jpeg,s2=set("Apple")
+image1251.jpeg,"s2=set(""Apple"")"
 image1252.jpeg,print(s2)
 image1253.jpeg,->The elements are accessed by Comma key .
 image1254.jpeg,"2 Number , string , list & touple"
@@ -1261,9 +1261,9 @@ image1259.jpeg,value always return first true .
 image1260.jpeg,Ex print(D[name]) #O/p John
 image1261.jpeg,Relational expression :
 image1262.jpeg,The operant data type should same .
-image1263.jpeg, "abc"> "def" false
-image1264.jpeg,"abc"<"def" true
-image1265.jpeg,"apple">"ask" false
+image1263.jpeg, """abc""> ""def"" false"
+image1264.jpeg,"""abc""<""def"" true"
+image1265.jpeg,"""apple"">""ask"" false"
 image1266.jpeg,Logical operator work on
 image1267.jpeg,# Relational expression
 image1268.jpeg,If reverse the value of an operand
@@ -1273,7 +1273,7 @@ image1271.jpeg,Identity operator is used to check
 image1272.jpeg,operands are same or not.
 image1273.jpeg,"numbers , string list and triple "
 image1274.jpeg,return first false ( Second true )
-image1275.jpeg," abc" and "def" ="def"
+image1275.jpeg,"""abc"" and ""def"" =""def"""
 image1276.jpeg,It reverse the value of an operand
 image1277.jpeg,not true =false
 image1278.jpeg,not 0=1
@@ -1306,39 +1306,39 @@ image1304.jpeg,instruction what is written and
 image1305.jpeg,"execute in one line,performing a"
 image1306.jpeg,complete operation .
 image1307.jpeg,Paris of tripple code (''' ''')
-image1308.jpeg,"a,b,C=eval( input ("Enter 3 sides..") )"
+image1308.jpeg,"a,b,C=eval( input (""Enter 3 sides.."") )"
 image1309.jpeg,r1= (-b+math.sqa(d))(2xa)
 image1310.jpeg,follows #
 image1311.jpeg,print('Equilatral')
 image1312.jpeg,print('Iso sceles)
-image1313.jpeg,print( "Scalene triangle")
+image1313.jpeg,"print(""Scalene triangle"")"
 image1314.jpeg,# roots of a quadratic equation .
-image1315.jpeg,"a,b,c=eval( input ("enter the contents a,b&c"))"
+image1315.jpeg,"a,b,c=eval( input (""enter the contents a,b&c""))"
 image1316.jpeg,d=b*b-4*a*c
-image1317.jpeg,Print ("no real roots")
-image1318.jpeg,elif d==0,
-image1319.jpeg,n=int(input("Enter no. of units:"))
+image1317.jpeg,"print (""no real roots"")"
+image1318.jpeg,"elif d==0,"
+image1319.jpeg,"n=int(input(""Enter no. of units:""))"
 image1320.jpeg,2.For loop
 image1321.jpeg,bill = 4.50*100+5.50*300 + 7.50*(n-300)
 image1322.jpeg,bill= 4.50*100+5.50*200+7.50*200+
-image1323.jpeg,"print( "bill amount= ", bill )"
+image1323.jpeg,"print(""bill amount= "", bill )"
 image1324.jpeg,multiple times is refer to as looping .
 image1325.jpeg,Two Loop structures used in Python .
 image1326.jpeg,1.while loop
 image1327.jpeg,#for 20 numbers
-image1328.jpeg,n= int(input("enter a number :))
-image1329.jpeg,"print( "sum =", S, "average =",5/20 )"
+image1328.jpeg,"n= int(input(""enter a number :""))"
+image1329.jpeg,"print( ""sum ="", S, ""average ="",5/20 )"
 image1330.jpeg,# Check prime number or not
-image1331.jpeg,n=int(input("enter a number:"))
+image1331.jpeg,"n=int(input(""enter a number:""))"
 image1332.jpeg,"for i in range (1,n+1):"
-image1333.jpeg,print("it is a prime number")
-image1334.jpeg,print(" It is not a prime number")
+image1333.jpeg,"print(""it is a prime number"")"
+image1334.jpeg,"print(""It is not a prime number"")"
 image1335.jpeg,# Fibonacci series
-image1336.jpeg,print("It is a Prime No")
+image1336.jpeg,"print(""It is a Prime No"")"
 image1337.jpeg,if n%3==0:
 image1338.jpeg,Continue
 image1339.jpeg,"print(n , ends='')"
-image1340.jpeg,print("It is not a prime number")
+image1340.jpeg,"print(""It is not a prime number"")"
 image1341.jpeg,continue
 image1342.jpeg,It is used to skip part of a loop .
 image1343.jpeg,and begins the next iteration .
@@ -1353,43 +1353,43 @@ image1351.jpeg,d=n%10
 image1352.jpeg,rev=rev*10+d
 image1353.jpeg,if rev==temp
 image1354.jpeg,else:
-image1355.jpeg,"n=input("Enter a number :"))
+image1355.jpeg,"n=input(""Enter a number :""))"
 image1356.jpeg,rev=rev*10+d
 image1357.jpeg,Iif rev==temp
-image1358.jpeg,print("palindrome")
+image1358.jpeg,"print(""palindrome"")"
 image1359.jpeg,for i in range(10)
 image1360.jpeg,temp=n
-image1361.jpeg,S="There is a fine weather today"
-image1362.jpeg,"Print( S.split("he")
+image1361.jpeg,"S=""There is a fine weather today"""
+image1362.jpeg,"Print( S.split(""he"")"
 image1363.jpeg,Partition :- It is used to decide a string
 image1364.jpeg,(i)The string left to the ppartition string
 image1365.jpeg,(ii)The position String itself
 image1366.jpeg,string
 image1367.jpeg,-> It returns the result as a tuple
-image1368.jpeg,S = "a b c d e f g * * * h i j k l m"
-image1369.jpeg,"print(s.position("* * *")) # ("a b c d e f g","* * *")"
-image1370.jpeg,S="a b c d * * * def * * * "
+image1368.jpeg,"S = ""a b c d e f g * * * h i j k l m"""
+image1369.jpeg,"print(s.position(""* * *"")) # (""a b c d e f g"",""* * *"")"
+image1370.jpeg,"S=""a b c d * * * def * * * """
 image1371.jpeg,title():- To convert a sentence into title case.
 image1372.jpeg,split():- It is used to split a sentence
 image1373.jpeg,into a list of words :
-image1374.jpeg,# S="python is a programming language"
+image1374.jpeg,"# S=""python is a programming language"""
 image1375.jpeg,"print(S.split()) #['python','is','a','programming','language']"
 image1376.jpeg,split(Split string):-
 image1377.jpeg,is inserted between every two elements .
 image1378.jpeg,"S=S.replace('S','X')"
 image1379.jpeg,true if a strong begins with a
 image1380.jpeg,specified Substring
-image1381.jpeg,"DNESH","DIBYA ","SRIJAY"]
-image1382.jpeg,print(S.join("GITA"))
-image1383.jpeg,print("*".join([10,20,30,40])) 10*20*30*40
+image1381.jpeg,"""DNESH"",""DIBYA"",""SRIJAY""]"
+image1382.jpeg,"print(S.join(""GITA""))"
+image1383.jpeg,"print(""*"".join([10,20,30,40])) 10*20*30*40"
 image1384.jpeg,"replace( String1, Strig2):-"
-image1385.jpeg,It return a string by replacing"
+image1385.jpeg,It return a string by replacing
 image1386.jpeg,every occurence of string1 by String2 .
-image1387.jpeg,S="MISSISSIPPI"
+image1387.jpeg,"S=""MISSISSIPPI"""
 image1388.jpeg,for n in names :
 image1389.jpeg,longest word .
-image1390.jpeg,Ex:-["GITA","AUTONOMOUS ","COLLEGE"
-image1391.jpeg,"S=input("Enter a sentence : n")
+image1390.jpeg,"Ex:-[""GITA"",""AUTONOMOUS"",""COLLEGE"""
+image1391.jpeg,"S=input(""Enter a sentence : n"")"
 image1392.jpeg,Words= S.split( )
 image1393.jpeg,fore w in words :
 image1394.jpeg,# if len(w)>len(lw):
@@ -1397,12 +1397,12 @@ image1395.jpeg,# lw=w                 length
 image1396.jpeg,the String containing unique characters
 image1397.jpeg,of both the String
 image1398.jpeg,if nstarts with(SRI).
-image1399.jpeg,"S1=input("Enter first string ")
+image1399.jpeg,"S1=input(""Enter first string "")"
 image1400.jpeg,Endswith(Substring):-
 image1401.jpeg,If returns take if a string is
 image1402.jpeg,terminated with the specified
 image1403.jpeg,Substring .
-image1404.jpeg,"print("COMBINATION".endswith("NATION") #
+image1404.jpeg,"print(""COMBINATION"".endswith(""NATION"") #"
 image1405.jpeg,WAP to input a sentence and print
 image1406.jpeg,the number of characters in the
 image1407.jpeg,In this cycle the CPU Retrives the instruction from the
@@ -1420,29 +1420,29 @@ image1418.jpeg,or logical operation ) (A-L0)
 image1419.jpeg,In this cycle the CPU perform the operations that as
 image1420.jpeg,'for n in names :
 image1421.jpeg,longest word .
-image1422.jpeg,Ex:- [GITA "" AUTONOMOUS " ## "COLLEGE"]
-image1423.jpeg,S=input("Enter a sentence :")
+image1422.jpeg,"Ex:- [""GITA"" ""AUTONOMOUS"" ## ""COLLEGE""]"
+image1423.jpeg,"S=input(""Enter a sentence :"")"
 image1424.jpeg,Words = S.split()
 image1425.jpeg,lw = words 10|
 image1426.jpeg,l=len(lw)
 image1427.jpeg,fore w in words :
 image1428.jpeg,# if len(w)>len(lw):
 image1429.jpeg,# lw=w                               length
-image1430.jpeg,print(longest word = ",lw,"#####=",len(lw))
+image1430.jpeg,"print(""longest word ="",lw,""#####="",len(lw))"
 image1431.jpeg,if n .startswith(SRI)
 image1432.jpeg,WAP to input two Strings and Print
 image1433.jpeg,the String containing unique characters
-image1434.jpeg,S1=input("Enter first string")
+image1434.jpeg,"S1=input(""Enter first string"")"
 image1435.jpeg,Endswith(Substring):-
 image1436.jpeg,It returns take if a string is
 image1437.jpeg,terminated with the specified
 image1438.jpeg,Substring .
-image1439.jpeg,"print("COMBINATION".endswith("NATION")) #
+image1439.jpeg,"print(""COMBINATION"".endswith(""NATION"")) #"
 image1440.jpeg,WAP to input a sentence and print
 image1441.jpeg,the number of characters in the
 image1442.jpeg,Alphabetical orders of a String .
 image1443.jpeg,[0].upper()
-image1444.jpeg,S = input("Enter a String in upper care : ")
+image1444.jpeg,"S = input(""Enter a String in upper care :"")"
 image1445.jpeg,WAP to input full name of a person and
 image1446.jpeg,display the initial as follow in
 image1447.jpeg,input: VENEATESH VIVEK SANKAR LAXMAN
@@ -1457,9 +1457,9 @@ image1455.jpeg,"print(L) #[-3,2,4,5,7,9,10]"
 image1456.jpeg,"L=[5,2,7,10,9,-3,4]"
 image1457.jpeg,L.sort(reverse=true)#Decending
 image1458.jpeg,"print(L)#[10,9,7,5.4,2,-3]"
-image1459.jpeg,"L=. ["MANAS","BASISTH","RAMAKANTA", "BARSHA"]
-image1460.jpeg,"L.sort( ) ["BARSHA"," BASISTH","MANAS","RAMA"]"
-image1461.jpeg,"Sum( List )- It return the sum of element
+image1459.jpeg,"L=. [""MANAS"",""BASISTH"",""RAMAKANTA"", ""BARSHA""]"
+image1460.jpeg,"L.sort( ) [""BARSHA"",""BASISTH"",""MANAS"",""RAMA""]"
+image1461.jpeg,Sum( List )- It return the sum of element
 image1462.jpeg,Max(list)- It returns the highest element
 image1463.jpeg,1st Occurrence # of an element in a list .
 image1464.jpeg,print(L.index(7)) #2
@@ -1471,15 +1471,15 @@ image1469.jpeg,in asscending order .
 image1470.jpeg,public static acid main(String args[]){
 image1471.jpeg,public static void main ( String args[] )
 image1472.jpeg,System.out.println(name);
-image1473.jpeg,Print Name( ),
+image1473.jpeg,"Print Name( ),"
 image1474.jpeg,public static void printName( ){
-image1475.jpeg,System.out.println("Aditya Sharma")
+image1475.jpeg,"System.out.println(""Aditya Sharma"")"
 image1476.jpeg,Output:- Aditya Sharma
 image1477.jpeg,WAP to print your name using
 image1478.jpeg,instance variable .
 image1479.jpeg,class Main{
-image1480.jpeg,Static String name="Aditya Sharma"
-image1481.jpeg,// Reverse number 
+image1480.jpeg,"Static String name=""Aditya Sharma"""
+image1481.jpeg,// Reverse number
 image1482.jpeg,//reversing the number .
 image1483.jpeg,int r=i%10:
 image1484.jpeg,s= s*10+r.
@@ -1494,7 +1494,7 @@ image1492.jpeg,class Main {
 image1493.jpeg,public int sum ( ){
 image1494.jpeg,"int a= 10 ,b=20;"
 image1495.jpeg,return a+b;
-image1496.jpeg,System.out.println( " sum ="+result ) ;
+image1496.jpeg,"System.out.println(""sum =""+result ) ;"
 image1497.jpeg,"int n=5,t=1"
 image1498.jpeg,for(int i=2;i<=n i++){
 image1499.jpeg,factorial of a number
@@ -1506,15 +1506,15 @@ image1504.jpeg,//Factorial of a number
 image1505.jpeg,Class Main{
 image1506.jpeg,public static void main(String args[])
 image1507.jpeg,// sum of days
-image1508.jpeg,int n=123; int s=,
+image1508.jpeg,"int n=123; int s=,"
 image1509.jpeg,for int i=n; i=0; i=i/10){
 image1510.jpeg,int r=i%10
 image1511.jpeg,//Reverse number and palindrome
 image1512.jpeg,for(int i=n;i=0;i=i/10){
 image1513.jpeg,s=s*10+r:
-image1514.jpeg,System.out.println("The number is
-image1515.jpeg,palindrome");
-image1516.jpeg,"not palindrome "),"
+image1514.jpeg,"System.out.println(""The number is"
+image1515.jpeg,"palindrome"");"
+image1516.jpeg,"""not palindrome""),"
 image1517.jpeg,//Fibonaci series
 image1518.jpeg,class Main{
 image1519.jpeg,"{int n1=0,n2=1;"
@@ -1535,7 +1535,7 @@ image1533.jpeg,These programs allow machines to
 image1534.jpeg,"send data , share resources or"
 image1535.jpeg,work together remotely
 image1536.jpeg,What is network ?
-image1537.jpeg,"communicate and share data
+image1537.jpeg,communicate and share data
 image1538.jpeg,resources.
 image1539.jpeg,"Example:- Internet , local network"
 image1540.jpeg,In advance Java networking .
@@ -1584,7 +1584,7 @@ image1582.jpeg,within a local network .
 image1583.jpeg,Format of MAC address
 image1584.jpeg,A standard MAC address is 48 bit
 image1585.jpeg,long usually shown in 6 pairs of
-image1586.jpeg,hexadecimal digits supported by :,
+image1586.jpeg,"hexadecimal digits supported by :,"
 image1587.jpeg,Example: 00:OD:83:BC.CO:8E
 image1588.jpeg,The consist of 6 octate .
 image1589.jpeg,the format of MAC address
@@ -1694,7 +1694,7 @@ image1692.jpeg,4.Deleting  data
 image1693.jpeg,JDBC Architecture
 image1694.jpeg,The JDBC API supports both
 image1695.jpeg,two and #their# tier producing
-image1696.jpeg,"models for database access  but it
+image1696.jpeg,models for database access  but it
 image1697.jpeg,It is a group of lines that acts as an connecting codes .
 image1698.jpeg,This bus allows to travel back from the CPU to the
 image1699.jpeg,memory and Vice-Versa .
@@ -1729,7 +1729,7 @@ image1727.jpeg,a database after a user execute
 image1728.jpeg,The user interacts #math# directly
 image1729.jpeg,an #yoga# My SQL querry thing
 image1730.jpeg,with the driver objects very rarely .
-image1731.jpeg,-> It associated with working with"
+image1731.jpeg,-> It associated with working with
 image1732.jpeg,driver objects .
 image1733.jpeg,Connection
 image1734.jpeg,->This interface with all methods .
@@ -1778,7 +1778,7 @@ image1776.jpeg,-> It communicate with the middleware
 image1777.jpeg,application server through a standard
 image1778.jpeg,ntework socket .
 image1779.jpeg,->This driver known as middleware .
-image1780.jpeg,-> It has a three tier approach"
+image1780.jpeg,-> It has a three tier approach
 image1781.jpeg,to assess database.
 image1782.jpeg,-> It communicate driven are extremely
 image1783.jpeg,"flexible , since no code is installed ."
@@ -1803,7 +1803,7 @@ image1801.jpeg,-nation .
 image1802.jpeg,Middleware converts request into
 image1803.jpeg,database protocol
 image1804.jpeg,Advantages
-image1805.jpeg,-> No client side library needs"
+image1805.jpeg,-> No client side library needs
 image1806.jpeg,to application server that can
 image1807.jpeg,"perform many talks like auditing ,"
 image1808.jpeg,"When executing a SELECT Query ,"
@@ -1851,7 +1851,7 @@ image1849.jpeg,using prepare call ( )
 image1850.jpeg,Step 4:- Set input : parameter ( if
 image1851.jpeg,Step 5:- Register . Output parameter .
 image1852.jpeg,step 6:- Execute the callable
-image1853.jpeg,JDBC provides the callable state"
+image1853.jpeg,JDBC provides the callable state
 image1854.jpeg,-ment interface to  call stored .
 image1855.jpeg,procedure from Java .
 image1856.jpeg,It is a new interface of prepared
@@ -1898,7 +1898,7 @@ image1896.jpeg,Nav tag- The set of navigation
 image1897.jpeg,"link , It is used for the Part"
 image1898.jpeg,of an internet lite that links
 image1899.jpeg,different pages .
-image1900.jpeg,"Place holder attributes - The place
+image1900.jpeg,Place holder attributes - The place
 image1901.jpeg,holder attributes offers a brief descri-
 image1902.jpeg,-ption of an input area .
 image1903.jpeg,E-mail attributes :- When the formy
@@ -1976,7 +1976,7 @@ image1974.jpeg,Socket APIs.
 image1975.jpeg,Platform-independent ( runs on
 image1976.jpeg,How Tomcat Works?
 image1977.jpeg,passes it to the Servlet Container .
-image1978.jpeg,The container leads the Servlet,
+image1978.jpeg,"The container leads the Servlet,"
 image1979.jpeg,executes it and generates a response .
 image1980.jpeg,Apache Tomcat is an opensource
 image1981.jpeg,web server and servlet container .
@@ -1984,7 +1984,7 @@ image1982.jpeg,"Jakarta servlet , Jakarta, JSP , and"
 image1983.jpeg,Jakarta Expression Language (EL)
 image1984.jpeg,specifications:-
 image1985.jpeg,Features of Apache Tomcat
-image1986.jpeg,* Lightweight and Fcut"
+image1986.jpeg,* Lightweight and Fcut
 image1987.jpeg,*Easy to configure and deploy .
 image1988.jpeg,a web server that manages the
 image1989.jpeg,*JBox/Wild Fly
@@ -2006,7 +2006,7 @@ image2004.jpeg,environment for servlet to run .
 image2005.jpeg,Servlet Containers:-
 image2006.jpeg,Apache Tomcat
 image2007.jpeg,sent back to the client
-image2008.jpeg,//package . It provides the basic"
+image2008.jpeg,//package . It provides the basic
 image2009.jpeg,//interfaces and classes needed to
 image2010.jpeg,//create servlets such as:-
 image2011.jpeg,Servlet Request
@@ -2025,21 +2025,21 @@ image2023.jpeg,support java.io
 image2024.jpeg,//Imports the java I/O package
 image2025.jpeg,// which contains cllases for
 image2026.jpeg,//input and output operations .
-image2027.jpeg,// Here use it to get the Print Writer"
+image2027.jpeg,// Here use it to get the Print Writer
 image2028.jpeg,import jakarta.servlet.*;
-image2029.jpeg,//Imports the Jakarta Servlet  API"
-image2030.jpeg,"import jakarta.servlet.http.*;
+image2029.jpeg,//Imports the Jakarta Servlet  API
+image2030.jpeg,"import jakarta.servlet.http.*;"
 image2031.jpeg,It tells the jservlet container .
 image2032.jpeg,this servlet
 image2033.jpeg,public class Hello Servlet extends .
 image2034.jpeg,http servlet{
 image2035.jpeg,->Imports HTTP servlet
 image2036.jpeg,"claues,such as:-"
-image2037.jpeg,"HttpServlet
+image2037.jpeg,HttpServlet
 image2038.jpeg,HttpServletRequest
 image2039.jpeg,Http Servlet Response
 image2040.jpeg,These area used when your servlet
-image2041.jpeg,"@ Web Servlet("/hello")// This is an"
+image2041.jpeg,"@ Web Servlet(""/hello"")// This is an"
 image2042.jpeg,//annotation based mapping-
 image2043.jpeg,"client requests ,and is finally"
 image2044.jpeg,Initialization ( init() method ) .
@@ -2089,11 +2089,11 @@ image2087.jpeg,the servlet instance is removed
 image2088.jpeg,initialized(init method called);
 image2089.jpeg,@ Override
 image2090.jpeg,public void service ( Servlet/Request .
-image2091.jpeg,"out .println ("Service method handling"
-image2092.jpeg,"method called.");
+image2091.jpeg,"out .println (""Service method handling"""
+image2092.jpeg,"""method called."");"
 image2093.jpeg,a) Override
 image2094.jpeg,public void destroy(){
-image2095.jpeg,"PrintWriter out=response.getWriter()
+image2095.jpeg,"PrintWriter out=response.getWriter()"
 image2096.jpeg,Collecting client submitted data
 image2097.jpeg,->servlets collect data from HTML
 image2098.jpeg,forms using reduced methods such
@@ -2102,16 +2102,16 @@ image2100.jpeg,submits a form the data sent
 image2101.jpeg,"to the servlet , which processes "
 image2102.jpeg,# PrintWriter # Out=one
 image2103.jpeg,String name - request.getParametre
-image2104.jpeg,("wername");
+image2104.jpeg,"(""wername"");"
 image2105.jpeg,String email = request. getParameter
-image2106.jpeg,out.println("<html>"); .
-image2107.jpeg,("email"),
+image2106.jpeg,"out.println(""<html>""); ."
+image2107.jpeg,"(""email""),"
 image2108.jpeg,Geneaning HTML<title>
-image2109.jpeg,out.println("<body>");
-image2110.jpeg,out.println(" <h2> Hello/ this is an
+image2109.jpeg,"out.println(""<body>"");"
+image2110.jpeg,"out.println(""<h2> Hello/ this is an"
 image2111.jpeg,HTML output from a servlet
-image2112.jpeg,out.println( "<body>" ) ;
-image2113.jpeg,out.println("</html>");
+image2112.jpeg,"out.println( ""<body>"" ) ;"
+image2113.jpeg,"out.println(""</html>"");"
 image2114.jpeg,Introduction # to JSP
 image2115.jpeg,explicit servlet coding ) .
 image2116.jpeg,Web container before execution .
@@ -2181,13 +2181,13 @@ image2179.jpeg,or the server is Shutting down the
 image2180.jpeg,Jsp Destroy() method is called . This
 image2181.jpeg,method is used to release request
 image2182.jpeg,the rest of the current JSP page
-image2183.jpeg,<jsp:inclde page = "relative URL "/>
+image2183.jpeg,"<jsp:inclde page = ""relative URL""/>"
 image2184.jpeg,static inclusion ( dueuing translation .
 image2185.jpeg,"time ) , while the action tag"
 image2186.jpeg,dynamic inclusion ( during request
 image2187.jpeg,<jsp:param>### Action
 image2188.jpeg,is not executed.
-image2189.jpeg,<jsp:include> Action Tag"
+image2189.jpeg,<jsp:include> Action Tag
 image2190.jpeg,The <JSP:include> tag is used .
 image2191.jpeg,to include the contents of another
 image2192.jpeg,response at request time . It allows
