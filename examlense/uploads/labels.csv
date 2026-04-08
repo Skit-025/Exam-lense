@@ -2178,61 +2178,61 @@ image2176.jpeg,method directly .
 image2177.jpeg,Destruction Phase
 image2178.jpeg,When the JSP is no longer needed
 image2179.jpeg,or the server is Shutting down the
-image2180.jpeg,Jsp Destroy I method recalled . This
-image2181.jpeg,"I'm method , I'm need to melaeusey ."
-image2182.jpeg,the rest of the Government Top type
-image2183.jpeg,"U. jeproducer page : "" melativeURI """
-image2184.jpeg,itaho inclusion ( dueuing translation .
-image2185.jpeg,"time ) , while the Clichon tag 1 ."
-image2186.jpeg,dynamic inclusion ( during refident
-image2187.jpeg,typipalam # then Union
-image2188.jpeg,By not executed #
-image2189.jpeg,"Risp"" Including Action Tag"
-image2190.jpeg,The Gsp. including tag is used .
+image2180.jpeg,Jsp Destroy() method is called . This
+image2181.jpeg,method is used to release request
+image2182.jpeg,the rest of the current JSP page
+image2183.jpeg,<jsp:inclde page = "relative URL "/>
+image2184.jpeg,static inclusion ( dueuing translation .
+image2185.jpeg,"time ) , while the action tag"
+image2186.jpeg,dynamic inclusion ( during request
+image2187.jpeg,<jsp:param>### Action
+image2188.jpeg,is not executed.
+image2189.jpeg,<jsp:include> Action Tag"
+image2190.jpeg,The <JSP:include> tag is used .
 image2191.jpeg,to include the contents of another
-image2192.jpeg,response at request time . It alone
-image2193.jpeg,economic inclusion of film such
-image2194.jpeg,"I'm header , foster or in antagonism"
-image2195.jpeg,menly #
-image2196.jpeg,Wercise about Dalabore Protocol :
+image2192.jpeg,response at request time . It allows
+image2193.jpeg,dynamic inclusion of film such
+image2194.jpeg,"as header , footer or navigation"
+image2195.jpeg,menus
+image2196.jpeg,Describe about Database Protocol :
 image2197.jpeg,Application Development
-image2198.jpeg,# # # # # #
-image2199.jpeg,wheese components are disturbed
-image2200.jpeg,# a reason might be returned
-image2201.jpeg,methoded computer but seek together
-image2202.jpeg,by a single system .
-image2203.jpeg,features of distributed Application .
-image2204.jpeg,fauled other resources .
-image2205.jpeg,I Scalability : The system can early
-image2206.jpeg,I scale honest easy
-image2207.jpeg,Driver I describe the methods to
+image2198.jpeg,->Distributed application developwement
+image2199.jpeg,where components are disturbed
+image2200.jpeg,#### allows multiple ######
+image2201.jpeg,networked computers but work together
+image2202.jpeg,as a single system .
+image2203.jpeg,features of distributed Application :-
+image2204.jpeg,and other resources .
+image2205.jpeg,Scalability : The system can easily
+image2206.jpeg,      scale horizontally
+image2207.jpeg,Driver & describe the methods to
 image2208.jpeg,by adding more nodes .
-image2209.jpeg,manigate Result set
-image2210.jpeg,Explain with an example how fulfilled
+image2209.jpeg,navigate Result set
+image2210.jpeg,Explain with an example how Resultset
 image2211.jpeg,is used with Prepared statement .
-image2212.jpeg,Wiffeenhate by a executfully method
-image2213.jpeg,"and executulate method . "" I"
-image2214.jpeg,Dalabal's
-image2215.jpeg,Introduction to Wicksuke )
-image2216.jpeg,# for ( Let it's it belongs this in
-image2217.jpeg,tift # later's fatherth D.
-image2218.jpeg,attack supply
-image2219.jpeg,Hellstock push ( I'll
-image2220.jpeg,attack-poplog
-image2221.jpeg,tebel .
-image2222.jpeg,attack push ) ;
-image2223.jpeg,Nymultaneously transfer #
-image2224.jpeg,Generally progress and return in high level Congress
-image2225.jpeg,"as its 1/ a convenient way in which "" One can ( I """
+image2212.jpeg,Diffentiate by a executeQuery method
+image2213.jpeg,and executeUpdate method .
+image2214.jpeg,Database
+image2215.jpeg,Introduction to Distributed
+image2216.jpeg,for(let i=0;i<s.length; i++){
+image2217.jpeg,if(s[i]==s(s.length-1)){
+image2218.jpeg,stack.pop();
+image2219.jpeg,else{ stack.push(s[i])
+image2220.jpeg,stack.pop();
+image2221.jpeg,else{
+image2222.jpeg,stack.push() ;
+image2223.jpeg,symultaneously transfer:-
+image2224.jpeg,Generally programs are return in high level language
+image2225.jpeg,as its a conviniount way in which One can
 image2226.jpeg,define variables along with Operation that a programmer
-image2227.jpeg,petform . This programs are later ' Compile to U.
-image2228.jpeg,gentimate the actual message Code which includes
-image2229.jpeg,Now level instruction . N. W.
-image2230.jpeg,sparesing modes : #
-image2231.jpeg,It helps as a specify the way in which the Operant
+image2227.jpeg,perform . This programs are latter  Compile to
+image2228.jpeg,generate the actual message Code which includes
+image2229.jpeg,low level instruction
+image2230.jpeg,Addressing modes : -
+image2231.jpeg,It helps as a specify the way in which one Operant
 image2232.jpeg,effective address can be represented in any given .
-image2233.jpeg,Construction .000
-image2234.jpeg,Some addressing modes allows referring to a large range
-image2235.jpeg,buddness Halong ( with a list of address . ( U.
-image2236.jpeg,An addressing made can be described as an efficient
-image2237.jpeg,and fleasittle way to define Complex effectively address .
+image2233.jpeg,instruction.
+image2234.jpeg,Some addressing modes allows refering to a large range
+image2235.jpeg,address along with a list of address .
+image2236.jpeg,An addressing mode can be described as an efficient
+image2237.jpeg,and flecsible way to define Complex effective address
