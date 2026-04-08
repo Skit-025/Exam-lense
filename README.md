@@ -115,6 +115,5 @@ To build a system that can:
 
 ---
 
-## 📜 License
-
-MIT License
+## 📖 License
+This project is released under the MIT License. See [LICENSE](LICENSE.txt) for details.
