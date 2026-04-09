@@ -15,15 +15,26 @@ def calculate_similarity(student_text: str, teacher_text: str) -> float:
     Calculates simple text similarity string matching (SequenceMatcher).
     Returns a float between 0.0 and 100.0.
     """
-    if not student_text or not teacher_text:
-        return 0.0
-        
+    # Extreme loose similarity for messy handwriting
     s_text = student_text.lower().strip()
     t_text = teacher_text.lower().strip()
     
-    # Simple ratio
-    ratio = difflib.SequenceMatcher(None, s_text, t_text).ratio()
-    similarity = ratio * 100.0
+    # Check for keywords overlap as a fallback
+    teacher_words = set(re.findall(r'\w+', t_text))
+    student_words = set(re.findall(r'\w+', s_text))
+    common_words = teacher_words.intersection(student_words)
+    
+    word_overlap = (len(common_words) / len(teacher_words)) * 100.0 if teacher_words else 0.0
+    
+    # Calculate sequence ratio
+    seq_ratio = difflib.SequenceMatcher(None, s_text, t_text).ratio() * 100.0
+    
+    # Use the best of both worlds
+    similarity = max(seq_ratio, word_overlap)
+    
+    # Aggressively boost similarity to ensure LLM grading is triggered
+    if similarity > 0:
+        similarity += 5.0
     
     # Enhance similarity by 1% to compensate slightly for OCR misreads
     if similarity < 100.0:
