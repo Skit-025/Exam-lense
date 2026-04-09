@@ -135,42 +135,42 @@ def detect_and_crop_lines(img_path, output_folder, page_number):
 
 
 
-if __name__ == '__main__':
-    input_folder = r'C:\Users\codes\Desktop\Exam lense\examlense\uploads\Dataset'
-    output_folder = r'C:\Users\codes\Desktop\Exam lense\examlense\uploads\CroppedLines'
+# if __name__ == '__main__':
+#     input_folder = r'C:\Users\codes\Desktop\Exam lense\examlense\uploads\Dataset'
+#     output_folder = r'C:\Users\codes\Desktop\Exam lense\examlense\uploads\CroppedLines'
 
-    try:
-        os.makedirs(output_folder, exist_ok=True)
+#     try:
+#         os.makedirs(output_folder, exist_ok=True)
 
-        if not os.path.exists(input_folder):
-            raise FileNotFoundError(f"Input folder not found: {input_folder}")
+#         if not os.path.exists(input_folder):
+#             raise FileNotFoundError(f"Input folder not found: {input_folder}")
 
-        for filename in os.listdir(input_folder):
-            if filename.lower().endswith('.jpeg'):
-                img_path = os.path.join(input_folder, filename)
+#         for filename in os.listdir(input_folder):
+#             if filename.lower().endswith('.jpeg'):
+#                 img_path = os.path.join(input_folder, filename)
 
-                if not os.path.isfile(img_path):
-                    continue
+#                 if not os.path.isfile(img_path):
+#                     continue
 
-                # scan1_page1.jpeg → line_scan1_page1
-                page_number = filename.replace('.jpeg', '')
+#                 # scan1_page1.jpeg → line_scan1_page1
+#                 page_number = filename.replace('.jpeg', '')
 
-                detect_and_crop_lines(img_path, output_folder, page_number)
-                print(f'{filename} processed!')
+#                 detect_and_crop_lines(img_path, output_folder, page_number)
+#                 print(f'{filename} processed!')
 
-        print('ALL DONE! Check CroppedLines folder!')
+#         print('ALL DONE! Check CroppedLines folder!')
 
-    except Exception as e:
-        print(f"[FATAL ERROR] {e}")
+#     except Exception as e:
+#         print(f"[FATAL ERROR] {e}")
 
 
 # successfully tested on one image, now let's run on the whole dataset
-# if __name__ == '__main__':
-#     # test for a single image
-#     test_image = r'C:\Users\codes\Desktop\Exam lense\examlense\uploads\Dataset\scan1_page1.jpeg'
-#     output_folder = r'C:\Users\codes\Desktop\Exam lense\examlense\uploads\CroppedLines\test2'
+if __name__ == '__main__':
+    # test for a single image
+    test_image = r'C:\Users\codes\Desktop\Exam lense\examlense\uploads\Dataset\scan1_page1.jpeg'
+    output_folder = r'C:\Users\codes\Desktop\Exam lense\examlense\uploads\CroppedLines\test2'
     
-#     os.makedirs(output_folder, exist_ok=True)
+    os.makedirs(output_folder, exist_ok=True)
     
-#     detect_and_crop_lines(test_image, output_folder, 'test')
-#     print('Done! Check CroppedLines/test folder!')
+    detect_and_crop_lines(test_image, output_folder, 'test')
+    print('Done! Check CroppedLines/test folder!')
