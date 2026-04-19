@@ -115,8 +115,6 @@ def detect_and_crop_lines(img_path, output_folder, page_number="page"):
         if heights:
             avg_h = np.mean(heights)
             for (start, end) in lines:
-                h = end - start
-                if h < avg_h * 0.5 or h > avg_h * 1.5: continue
                 final_lines.append((start, end))
 
         # Crop and Save
