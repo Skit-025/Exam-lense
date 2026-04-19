@@ -126,9 +126,9 @@ def run_evaluation(binary_files, student_name, subject, grading_rubric, teacher_
         
         similarity = calculate_similarity(final_student_text, teacher_answer)
         
-        gpt_result = {"marks": 0.0, "correctness_percentage": 0.0, "feedback": "Similarity too low for AI grading."}
-        if similarity > 5.0:
-            gpt_result = evaluate_with_gpt(final_student_text, teacher_answer, subject, grading_rubric, float(total_marks))
+        # PRO-TEACHER UPDATE: Remove gate to ensure conceptual evaluation always occurs
+        print(f"[DEBUG] Similarity: {similarity:.1f}%. Triggering conceptual AI grader...")
+        gpt_result = evaluate_with_gpt(final_student_text, teacher_answer, subject, grading_rubric, float(total_marks))
 
         progress(1.0, desc="Finalizing Report...")
         elapsed = int(time.time() - start_time)
@@ -143,7 +143,7 @@ def run_evaluation(binary_files, student_name, subject, grading_rubric, teacher_
 
     except Exception as e:
         print(f"[CRITICAL ERROR] {e}")
-        yield "❌ Local Crash", str(e)
+        yield "Local Crash", str(e)
         return
 
 custom_css = """
