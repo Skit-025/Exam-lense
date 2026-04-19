@@ -76,46 +76,54 @@ def evaluate_with_gpt(student_text: str, teacher_text: str, subject: str, gradin
             "feedback": "Evaluation skipped: HF_TOKEN environment variable is not set and .env is missing."
         }
         
-    # Use Google Gemma-2-9B: Advanced instruction following
-    client = InferenceClient("google/gemma-2-9b-it", token=hf_token)
+    # Use Mistral-7B-Instruct: Extremely reliable and widely supported on HF Inference API
+    client = InferenceClient("mistralai/Mistral-7B-Instruct-v0.3", token=hf_token)
     
-    messages = [
-        {"role": "user", "content": f"""Subject: {subject}
-Rules: {grading_rubric}
-Teacher Correct Answer: {teacher_text}
-Student Answer (Extracted via OCR): {student_text}
+    prompt = f"""Subject: {subject}
+Teacher Answer Key: {teacher_text}
+Student's OCR Transcription: {student_text}
+Grading Rubric: {grading_rubric}
 
-TASK: Evaluate the student's marks (0-100%). 
-CRITICAL NOTE: The student answer was read via an OCR model and may have minor spelling mistakes or noise (e.g. '0' instead of 'o'). 
-Focus on the CONCEPTUAL intent. If the intent matches the teacher's key despite OCR typos, award the marks.
-Respond with ONLY the number (0-100)."""}
+TASK: Evaluate the student's answer based on the teacher's key and rubric.
+Note: The student's text is from noisy OCR. Be very lenient. If the core concept is present, award marks.
+
+Respond ONLY with a numerical score between 0 and 100 representing the correctness percentage.
+Score (0-100):"""
+
+    messages = [
+        {"role": "user", "content": prompt}
     ]
     
     try:
-        # Use chat_completion for robust task-routing on HuggingFace
+        # Use chat_completion with a small timeout or retry logic if needed, but here we just call it
         response = client.chat_completion(messages, max_tokens=10, temperature=0.1)
         content = response.choices[0].message.content.strip()
+        logger.info(f"LLM Raw Response: {content}")
         
-        # Extract the number from the response
-        match = re.search(r'\d+(\.\d+)?', content)
-        percentage = float(match.group()) if match else 0.0
-        
-        # Strict Marking Logic Implementation
-        # 1. No word matches / zero percentage -> Zero
-        if percentage <= 0:
-            awarded = 0.0
+        # Robustly extract the first number found in the response
+        match = re.search(r'(\d+(\.\d+)?)', content)
+        if match:
+            percentage = float(match.group(1))
         else:
-            # 2. Linear calculation based on AI percentage
-            awarded = (percentage / 100.0) * total_marks
+            # Fallback: if no digit found, check for common word responses
+            if "excellent" in content.lower() or "perfect" in content.lower():
+                percentage = 100.0
+            elif "good" in content.lower():
+                percentage = 75.0
+            elif "average" in content.lower():
+                percentage = 50.0
+            else:
+                percentage = 0.0
+        
+        # Ensure percentage is within bounds
+        percentage = max(0.0, min(100.0, percentage))
             
-        # 3. Floor Logic: If final mark is < 1, it becomes zero
-        if awarded < 1.0:
-            awarded = 0.0
+        awarded = (percentage / 100.0) * total_marks
             
         return {
-            "marks": awarded,
-            "correctness_percentage": percentage,
-            "feedback": f"AI calculated {percentage:.1f}% correctness. Final mark awarded: {awarded} (Minimum 1.0 mark required for credit)."
+            "marks": round(awarded, 2),
+            "correctness_percentage": round(percentage, 2),
+            "feedback": f"AI Evaluator: {percentage:.1f}% conceptual match. Awarded {round(awarded, 2)}/{total_marks} marks based on intent analysis."
         }
         
     except Exception as e:
